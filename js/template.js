@@ -129,6 +129,7 @@ define([
             function(credential){deferred.resolve();},
             function(error){deferred.resolve();}
         );
+
         return deferred.promise;
 
     },
@@ -208,7 +209,7 @@ define([
           callbackParamName: "callback"
       }).then(lang.hitch(this, function(response) {
        
-          if(response.untis){
+          if(response.units){
               this.config.units = response.units;
           }else{
               this.config.units = "english";
@@ -221,7 +222,7 @@ define([
           }
           deferred.resolve();
       }), function(error) {
-          console.log(error);
+          esri.id.credentials = [];
           deferred.resolve();
       });
       return deferred.promise;

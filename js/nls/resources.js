@@ -4,7 +4,17 @@ define({root:
     main:{
       scaleBarUnits: "english", //"english (for miles) or "metric" (for km) - don't translate.
       legendLabel: "Legend",
-      descriptionLabel: "Description"
+      descriptionLabel: "Description",
+      search: {
+        title: "Find address or place",
+        popupTitle: "Location",
+        currentLocation: "Current location",
+        notWhatYouWanted: "Not what you wanted?" ,
+        selectAnother: "Select another location",
+        errors:{
+         missingLocation: "Location not found"
+      }
+    }
     },
     errors:{
       createMap: "Unable to create map",

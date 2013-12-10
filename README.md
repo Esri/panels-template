@@ -4,7 +4,7 @@ Panels is a configurable application template that enables you to display an Arc
 
 ![Screen Shot] (https://dl.dropboxusercontent.com/u/24627279/screenshots/panels_th.jpg)
 
-[View it live] (http://www.arcgis.com/apps/panels/index.html?webmap=d897f81f70384a4cb22b158ab81c7b1e)
+[View it live] (http://www.arcgis.com/apps/panels/index.html?webmap=174966ecfd524979ac9a578d8ca404f2)
 
 
 **Panels** is a configurable application template that enables you to display an ArcGIS web map with a legend, description, and basic map tools. The template can be configured using the following options:

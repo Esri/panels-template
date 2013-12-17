@@ -25,7 +25,7 @@ Panels is a configurable application template that enables you to display an Arc
 1. Download and unzip the .zip file or clone the repo. 
 2. Web-enable the directory
 3. Access the .html page 
-4. See the readme.html page for more details. 
+4. View the [Configuration Options wiki](https://github.com/Esri/panels-template/wiki/Configuration-Options) page for details. 
 
 
 #Requirements

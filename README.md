@@ -1,13 +1,11 @@
-panels-template
+legend-template
 ===============
-Panels is a configurable application template that enables you to display an ArcGIS web map with a legend, description, and basic map tools. 
+![Screen Shot] (https://dl.dropboxusercontent.com/u/24627279/screenshots/legend_th.jpg)
 
-![Screen Shot] (https://dl.dropboxusercontent.com/u/24627279/screenshots/panels_th.jpg)
+[View it live] (http://www.arcgis.com/apps/PanelsLegend/index.html?webmap=c959f521c02f4f64abf4d39019c5ccd5)
 
-[View it live] (http://www.arcgis.com/apps/Panels/index.html?appid=1f0603045d5d4490aedd2dc36137c807)
-
-
-**Panels** is a configurable application template that enables you to display an ArcGIS web map with a legend, description, and basic map tools. The template can be configured using the following options:
+#Features
+**Legend** is a configurable application template that enables you to display an ArcGIS web map with a legend, description, and basic map tools. The template can be configured using the following options:
  - **Map:** Choose the web map used in the application. 
  - **Color Scheme:** Choose between four application color schemes (Chrome, Gray, Seaside, Pavement).
  - **Header:** Choose to add a header displaying a title and subtitle.
@@ -25,7 +23,7 @@ Panels is a configurable application template that enables you to display an Arc
 1. Download and unzip the .zip file or clone the repo. 
 2. Web-enable the directory
 3. Access the .html page 
-4. View the [Configuration Options wiki](https://github.com/Esri/panels-template/wiki/Configuration-Options) page for details. 
+4. See the [Configuration Options] (https://github.com/Esri/legend-template/wiki/Configuration-Options) section of the wiki for details on configuring the application. 
 
 
 #Requirements
@@ -37,7 +35,7 @@ Panels is a configurable application template that enables you to display an Arc
 #Resources
 
 - [ArcGIS API for JavaScript Resource Center](http://help.arcgis.com/en/webapi/javascript/arcgis/index.html)
-- [ArcGIS Online](http://www.arcgis.com)
+- [ArcGIS Online] (http://www.arcgis.com)
 - Want to create your own template? View the [Application Boilerplate](https://github.com/Esri/application-boilerplate-js) to get started. 
 
 #Issues

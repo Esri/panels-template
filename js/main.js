@@ -13,6 +13,7 @@ define([
     "esri/arcgis/utils",
     "esri/IdentityManager",
     "esri/geometry/Point",
+    "esri/geometry/Extent",
     "esri/dijit/Scalebar",
     "esri/lang",
     "dijit/layout/ContentPane",
@@ -33,6 +34,7 @@ function(
     arcgisUtils,
     IdentityManager,
     Point,
+    Extent,
     Scalebar,
     esriLang,
     ContentPane,
@@ -54,8 +56,11 @@ function(
                 ss.rel = "stylesheet";
                 ss.href = "css/" + this.config.theme + ".css";
                 document.getElementsByTagName("head")[0].appendChild(ss);
-                
-                this._createWebMap();
+
+                //supply either the webmap id or, if available, the item info 
+                var itemInfo = this.config.itemInfo || this.config.webmap;
+
+                this._createWebMap(itemInfo);
             }));
         },
         _mapLoaded: function() {
@@ -318,8 +323,8 @@ function(
 
         },
         //create a map based on the input web map id
-        _createWebMap: function() {
-            arcgisUtils.createMap(this.config.webmap, "mapDiv", {
+        _createWebMap: function(itemInfo) {
+            arcgisUtils.createMap(itemInfo , "mapDiv", {
                 mapOptions: {
                     //Optionally define additional map config here for example you can 
                     //turn the slider off, display info windows, disable wraparound 180, slider position and more. 
@@ -332,6 +337,9 @@ function(
                 //Here' we'll use it to update the application to match the specified color theme.  
    
                this.map = response.map;
+               
+               
+           
                //set the application title 
                document.title = this.config.title || response.itemInfo.item.title;
 

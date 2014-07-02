@@ -14,7 +14,7 @@ define([], function() {
         //Specify the default color theme of the application. 
         "theme": "chrome", //valid values are seaside, chrome, pavement, gray
         "bingmapskey": "", //Enter the url to your organizations bing maps key if you want to use bing basemaps
-        "sharinghost": "http://www.arcgis.com", //Defaults to arcgis.com. Set this value to your portal or organization host name. 
+        "sharinghost": "", //Defaults to arcgis.com. Set this value to your portal or organization host name. 
         //If you've registered your application with arcgis online and have an oauth client id enter that value 
         //here. 
         "oauthappid": null, 
@@ -39,11 +39,13 @@ define([], function() {
         //LEGEND: Display the legend in a panel on the right or left side of the map.
         "legend":  false,
         "legend_side": "right",//left or right 
+        "localize": true,
         /****************Optional Widgets*******************/
         "home_button": true,
         "basemap_option": "", //valid values are street, satellite, hybrid, topo, gray, oceans, national-geographic and osm
         "locate_button": true,
-        "geocoder": true
+        "geocoder": true,
+        "queryForOrg": true
     };
     return defaults;
 });

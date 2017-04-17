@@ -1,8 +1,7 @@
 legend-template
 ===============
-![Screen Shot] (https://dl.dropboxusercontent.com/u/24627279/screenshots/legend_th.jpg)
 
-[View it live] (http://www.arcgis.com/apps/PanelsLegend/index.html?webmap=c959f521c02f4f64abf4d39019c5ccd5)
+[View it live](http://www.arcgis.com/apps/PanelsLegend/index.html?webmap=c959f521c02f4f64abf4d39019c5ccd5)
 
 #Features
 **Legend** is a configurable application template that enables you to display an ArcGIS web map with a legend, description, and basic map tools. The template can be configured using the following options:
@@ -55,5 +54,4 @@ http://www.apache.org/licenses/LICENSE-2.0
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
 A copy of the license is available in the repository's license.txt file.
-[](Esri Tags: ArcGIS Online Web Application Templates) 
-[](Esri Language: JavaScript)
+
